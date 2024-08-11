@@ -1,4 +1,31 @@
-# React + TypeScript + Vite
+# Roma Timer
+
+A progressive web app (PWA) that helps you keep track of your time on a task and take breaks when needed.
+
+## Getting Started
+
+0. Install Node.js v20+
+1. Clone the repo
+2. Run `pnpm install`
+3. Run `pnpm run build`
+4. Run `pnpm run preview`
+
+### Development
+
+For dev mode
+
+```shell
+pnpm run dev
+```
+
+## Further Reading
+
+- [Vite PWA](https://vite-pwa-org.netlify.app/guide/)
+- [PicoCSS](https://picocss.com/)
+
+---
+
+Readme from vite pwa template
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
