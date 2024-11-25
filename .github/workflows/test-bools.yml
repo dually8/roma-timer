@@ -1,0 +1,21 @@
+name: Test booleans
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test fromJson true
+      if: ${{ fromJson('true') }}
+      run: echo "hi mom!"
+    - name: Test fromJSON true
+      if: ${{ fromJSON('true') }}
+      run: echo "hi dad!"
+    - name: Test fromJson false
+      if: ${{ fromJson('false') }}
+      run: echo "fromJson('false')"
+    - name: Test fromJSON false
+      if: ${{ fromJSON('false') }}
+      run: echo "fromJSON('false')"
